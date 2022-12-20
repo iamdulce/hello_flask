@@ -36,3 +36,9 @@ flask --app hello -p run 5001
 ```
 flask --app hello --debug run
 ```
+
+## Actualizar el servidor con cambios en tiempo real y en otro puerto
+
+```
+flask --app hello --debug run p 5001
+```
